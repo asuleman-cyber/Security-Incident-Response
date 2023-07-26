@@ -52,7 +52,7 @@ The incident has been classified as a confirmed security breach due to the large
 
 **Incident Summary**
 
-On May 13, 2023, at 17:22:15 UTC, Azure Sentinel detected a potential privilege escalation incident related to Azure Key Vault credential retrieval or update. User was involved in multiple instances of accessing critical credentials and was also connected to other incidents involving excessive password resets and global admin role assignments.
+On May 13, 2023, at 17:22:15 UTC, Azure Sentinel detected a potential privilege escalation incident related to Azure Key Vault credential retrieval or update. User "Adam Suleman" was involved in multiple instances of accessing critical credentials and was also connected to other incidents involving excessive password resets and global admin role assignments.
 
 **Impact Assessment**
 
@@ -60,10 +60,10 @@ As this was a simulated scenario for testing and educational purposes, no actual
 
 **Recommendations**
 
-1. Investigate Adam Suleman's access to the Azure Key Vault and other sensitive resources to determine if any unauthorized access occurred.
+1. Investigate User's access to the Azure Key Vault and other sensitive resources to determine if any unauthorized access occurred.
 2. Review and update access control policies to prevent similar incidents in the future.
 3. Consider resetting critical credentials and rotating them frequently to limit potential damage in case of a real compromise.
-4. Monitor Adam Suleman's activity closely and revoke their access to sensitive resources if necessary.
+4. Monitor User's activity closely and revoke their access to sensitive resources if necessary.
 
 **Classification**
 
